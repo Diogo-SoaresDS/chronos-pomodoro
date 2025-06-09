@@ -6,6 +6,7 @@ import { CountDown } from './components/CountDown'
 import { Input } from './components/Input'
 import { Cycles } from './components/Cycles'
 import { Button } from './components/Button'
+import { Footer } from './components/Footer'
 
 import './styles/theme.css'
 import './styles/global.css'
@@ -48,6 +49,10 @@ export function App() {
             <Button icon={<PlayCircleIcon />} />
           </div>
         </form>
+      </Container>
+
+      <Container>
+        <Footer />
       </Container>
     </>
   )
